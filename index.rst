@@ -12,4 +12,9 @@ Skirell documentation
    :caption: Интерфейс:
 
    Интерфейс/JSON
-   Интерфейс/Types
+   Интерфейс/Type_scene
+   Интерфейс/Type_sensor
+   Интерфейс/Type_light
+   Интерфейс/Type_cover
+   Интерфейс/Type_climate
+   Интерфейс/Type_cover

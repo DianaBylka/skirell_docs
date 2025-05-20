@@ -11,7 +11,7 @@ Arduino
 -------
 
 Snap Circuits
---------------
+=============
 
 Project Bloks (in development)
 -----------------------------------
