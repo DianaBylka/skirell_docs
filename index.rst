@@ -11,7 +11,7 @@ Skirell documentation
    :hidden:
    :caption: Интерфейс:
 
-   Интерфейс/configurator
+   Интерфейс/конфигуратор
 
 .. toctree::
    :maxdepth: 2
