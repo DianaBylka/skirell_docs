@@ -6,6 +6,12 @@
 Skirell documentation
 =====================
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Интерфейс:
+
+   Интерфейс/configurator
 
 .. toctree::
    :maxdepth: 2
