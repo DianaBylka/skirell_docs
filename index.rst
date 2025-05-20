@@ -11,22 +11,4 @@ Skirell documentation
    :hidden:
    :caption: Интерфейс:
 
-   Интерфейс/конфигуратор
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Options:
-
-   Options/justlogic
-   Options/justcode
-   Options/justhardware
-   Options/hardwareandcode
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Guidelines:
-
-   Guidelines/content
-   Guidelines/workflow
+   Интерфейс/JSON
