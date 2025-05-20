@@ -1,0 +1,200 @@
+
+{
+
+  "screens": [
+    {
+      "page": 1,
+      "blocks": [
+        {
+          "block": 1,
+          "type": "sensor",
+          "data": {
+            "param_1": "",
+            "measure": "",
+            "min": "0",
+            "stage_1": "200",
+            "stage_2": "500",
+            "max": "1000",
+            "color_1": "color_green",
+            "color_2": "color_yellow",
+            "color_3": "color_red",
+            "state_topic": "panel/sensor/4/state"
+          }
+        },
+        {
+          "block": 2,
+          "type": "climate",
+          "data": {
+            "param_1": "",
+            "param_2": "",
+            "setting_name": "",
+            "icon": "\uDB84\uDC99",
+            "min_target": "15",
+            "max_target": "30",
+            "measure": "",
+            "color": "color_blue",
+            "variant_type": "Climate_Variant_Thermostat",
+            "variant": {
+              "OnOff_command_topic": "panel/climate/4/OnOff_command",
+              "OnOff_state_topic": "panel/climate/4/OnOff_state",
+              "payload_on": "1",
+              "payload_off": "0",
+              "targetTemp_command_topic": "panel/climate/4/targetTemp_command",
+              "targetTemp_state_topic": "panel/climate/4/targetTemp_state",
+              "sensor": {
+                "sensor_main": 0,
+                "sensor_1_icon": "",
+                "sensor_1_measure": "",
+                "sensor_1_state_topic": "panel/climate/4/sensor_1_state",
+                "sensor_2_icon": "",
+                "sensor_2_measure": "",
+                "sensor_2_state_topic": "panel/climate/4/sensor_1_state",
+                "sensor_3_icon": "",
+                "sensor_3_measure": "",
+                "sensor_3_state_topic": "panel/climate/4/sensor_1_state"
+              }
+            }
+          }
+        },
+        {
+          "block": 3,
+          "type": "climate",
+          "data": {
+            "param_1": "",
+            "param_2": "",
+            "setting_name": "",
+            "icon": "\uDB84\uDF52",
+            "min_target": "15",
+            "max_target": "30",
+            "off_payload": "off",
+            "measure": "",
+            "color": "color_red",
+            "variant_type": "Climate_Variant_Cond",
+            "variant": {
+              "mode_command_topic": "panel/climate/1/mode_command",
+              "mode_state_topic": "panel/climate/1/mode_state",
+              "off_payload": "off",
+              "modes": {
+                "mode_1": { "icon": "\uDB86\uDCF2", "title": "Авто", "color": "color_green", "payload": "auto" },
+                "mode_2": { "icon": "", "title": "Обогрев", "color": "color_red", "payload": "2" },
+                "mode_3": { "icon": "\uDB81\uDF17", "title": "", "color": "color_blue", "payload": "5" },
+                "mode_4": { "icon": "\uDB81\uDD8E", "title": "Осушение", "color": "color_blue", "payload": "" }
+              },
+              "currentTemp_state_topic": "panel/climate/1/currentTemp_state",
+              "targetTemp_command_topic": "panel/climate/1/targetTemp_command",
+              "targetTemp_state_topic": "panel/climate/1/targetTemp_state",
+              "fan_command_topic": "panel/climate/1/fan_command",
+              "fan_state_topic": "panel/climate/1/fan_state",
+              "fan_modes": {
+                "mode_1": { "icon": "\uDB85\uDF1D", "payload": "0" },
+                "mode_2": { "icon": "\uDB85\uDC72", "payload": "1" },
+                "mode_3": { "icon": "\uDB85\uDC73", "payload": "" },
+                "mode_4": { "icon": "", "payload": "3" },
+                "mode_5": { "icon": "", "payload": "" }
+              }
+            }
+          }
+        },
+        {
+          "block": 4,
+          "type": "scene",
+          "data": {
+            "param_1": "",
+            "param_2": "",
+            "param_3": "",
+            "icon": "\uDB82\uDD06",
+            "command_topic": "panel/scenes/4",
+            "payload": "1"
+          }
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "blocks": [
+        {
+          "block": 1,
+          "type": "light",
+          "data": {
+            "param_1": "",
+            "param_2": "",
+            "setting_name": "",
+            "icon": "\uDB84\uDC20",
+            "variant_type": "Light_variant_OnOff",
+            "variant": {
+              "OnOff_command_topic": "panel/light/1/OnOff_command",
+              "OnOff_state_topic": "panel/light/1/OnOff_state",
+              "payload_on": "1",
+              "payload_off": "0"
+            }
+          }
+        },
+        {
+          "block": 2,
+          "type": "light",
+          "data": {
+            "param_1": "",
+            "param_2": "",
+            "setting_name": "",
+            "icon": "\uDB85\uDFD1",
+            "variant_type": "Light_variant_dimmer",
+            "variant": {
+              "OnOff_command_topic": "panel/light/2/OnOff_command",
+              "OnOff_state_topic": "panel/light/2/OnOff_state",
+              "payload_on": "1",
+              "payload_off": "0",
+              "brightness_command_topic": "panel/light/2/brightness_command",
+              "brightness_state_topic": "panel/light/2/brightness_state",
+              "brightness_scale": 255
+            }
+          }
+        },
+        {
+          "block": 3,
+          "type": "light",
+          "data": {
+            "param_1": "",
+            "param_2": "",
+            "setting_name": "",
+            "icon": "\uDB84\uDC51",
+            "variant_type": "Light_variant_color",
+            "variant": {
+              "OnOff_command_topic": "panel/light/3/OnOff_command",
+              "OnOff_state_topic": "panel/light/3/OnOff_state",
+              "payload_on": "1",
+              "payload_off": "0",
+              "brightness_command_topic": "panel/light/3/brightness_command",
+              "brightness_state_topic": "panel/light/3/brightness_state",
+              "brightness_scale": 100,
+              "color_command_topic": "panel/light/3/color_command"
+            }
+          }
+        },
+        {
+          "block": 4,
+          "type": "light",
+          "data": {
+            "param_1": "",
+            "param_2": "",
+            "setting_name": "",
+            "icon": "\uDB86\uDCDE",
+            "variant_type": "Light_variant_temperature",
+            "variant": {
+              "OnOff_command_topic": "panel/light/4/OnOff_command",
+              "OnOff_state_topic": "panel/light/4/OnOff_state",
+              "payload_on": "1",
+              "payload_off": "0",
+              "brightness_command_topic": "panel/light/4/brightness_command",
+              "brightness_state_topic": "panel/light/4/brightness_state",
+              "brightness_scale": 100,
+              "temp_command_topic": "panel/light/4/temp_command",
+              "temp_state_topic": "panel/light/4/temp_state",
+              "max_temp": 6500,
+              "min_temp": 2700
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
