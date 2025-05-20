@@ -12,3 +12,4 @@ Skirell documentation
    :caption: Интерфейс:
 
    Интерфейс/JSON
+   Интерфейс/Types
