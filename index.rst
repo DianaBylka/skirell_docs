@@ -6,7 +6,6 @@
 Skirell documentation
 =====================
 
-Привет
 
 .. toctree::
    :maxdepth: 2
