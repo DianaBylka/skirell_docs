@@ -100,8 +100,8 @@
         "type": "light",
         "data": {
             "param_1": "Подсветка",
-            "param_2": "Гостинная",
-            "setting_name": "Подсветка",
+            "param_2": "Раб. место",
+            "setting_name": "Рабочее место",
             "icon": "\uDB84\uDC51",
             "variant_type": "Light_variant_color",
             "variant": 
@@ -142,8 +142,8 @@
         "block": 4,
         "type": "light",
         "data": {
-            "param_1": "Свесы",
-            "param_2": "Прихожая",
+            "param_1": "",
+            "param_2": "Свесы",
             "setting_name": "Свесы",
             "icon": "\uDB86\uDCDE",
             "variant_type": "Light_variant_temperature",
@@ -164,3 +164,4 @@
         }
     }
 
+.. image:: /images/light.png

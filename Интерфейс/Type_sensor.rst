@@ -33,3 +33,25 @@
             "state_topic": "panel/sensor/1/state"
         }
     }
+
+Пример::
+
+    {
+        "block": 2,
+        "type": "sensor",
+        "data": 
+        {
+            "param_1": "Интернет",
+            "measure": "MB",
+            "min": "1",
+            "stage_1": "4",
+            "stage_2": "8",
+            "max": "10",
+            "color_1": "color_red",
+            "color_2": "color_yellow",
+            "color_3": "color_green",
+            "state_topic": "panel/sensor/2/state"
+        }
+    }
+
+.. image:: /images/block_sensor.png
