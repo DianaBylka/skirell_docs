@@ -6,6 +6,9 @@
 * ``param_1``: Текст, например название устройства (String, может быть пустым).
 .. image:: /images/block_param_1.png
 
+.. raw:: html
+
+    <br/><br/>
 
 * ``param_2``: Текст, например локация (String, обязательно).
 .. image:: /images/block_param_2.png
