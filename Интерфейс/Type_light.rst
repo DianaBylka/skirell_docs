@@ -1,29 +1,31 @@
 Тип light (Свет)
 =================
 
-Блок light управляет освещением и имеет четыре подтипа. Общие параметры:
+Блок ``light`` управляет освещением и имеет четыре подтипа. Общие параметры:
 
-* param_1: Название устройства (String, может быть пустым).
+* ``param_1``: Текст, например название устройства (String, может быть пустым).
 .. image:: /images/block_param_1.png
 
-* param_2: Локация (String, обязательно).
+* ``param_2``: Текст, например локация (String, обязательно).
 .. image:: /images/block_param_2.png
 
-* setting_name: Название в настройках (String, обязательно).
+* ``setting_name``: Заголовок в настройках (String, обязательно).
 .. image:: /images/setting_name.png
 
-* icon: Иконка (String, Unicode, обязательно).
+* ``icon``: Иконка (String, Unicode, обязательно).
 .. image:: /images/block_icon.png
 
-* variant_type: Подтип (light_variant_OnOff, light_variant_dimmer, light_variant_color, light_variant_temperature).
-* variant: Параметры подтипа.
+* ``variant_type``: Подтип (``light_variant_OnOff``, ``light_variant_dimmer``, ``light_variant_color``, ``light_variant_temperature``).
+* ``variant``: Параметры подтипа.
 
 Подтип light_variant_OnOff
 ----------------------------
 
-Отправляет команду включения/выключения на сервер и ожидает ответа о состоянии. 
+Отправляет команду включения/выключения на указанный MQTT-топик и также прослушивает его, изменяя состояние элементов интерфейса.
 
-.. image:: /images/light.png
+
+.. image:: /images/OnOffBlocks.png
+\* **Блок 1** - Состояние выкл, **Блок 2** - Состояние вкл
 
 Параметры ``variant``:
 
