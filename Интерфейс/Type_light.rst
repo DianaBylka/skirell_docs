@@ -21,7 +21,7 @@
 
     <br/><br/>
 
-* ``icon``: Иконка (String, Unicode, обязательно).
+* ``icon``: Иконка (String - Unicode, обязательно).
 .. image:: /images/block_icon.png
 .. raw:: html
 
@@ -140,7 +140,7 @@
 Пример::
 
     {
-        "block": 3,
+        "block": 1,
         "type": "light",
         "data": {
             "param_1": "Подсветка",
@@ -191,7 +191,7 @@
 Пример::
 
     {
-        "block": 4,
+        "block": 1,
         "type": "light",
         "data": {
             "param_1": "",
