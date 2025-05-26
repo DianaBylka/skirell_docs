@@ -6,6 +6,7 @@
 * ``param_1``: Текст, например название устройства (String, может быть пустым).
 .. image:: /images/block_param_1.png
 
+
 * ``param_2``: Текст, например локация (String, обязательно).
 .. image:: /images/block_param_2.png
 
@@ -25,6 +26,7 @@
 
 
 .. image:: /images/OnOffBlocks.png
+
 \* **Блок 1** - Состояние выкл, **Блок 2** - Состояние вкл
 
 Параметры ``variant``:
